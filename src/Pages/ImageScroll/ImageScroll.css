@@ -1,0 +1,24 @@
+.image-container3 {
+    display: flex;
+    gap: 40px;
+    scroll-behavior: smooth;
+    scrollbar-width: none; 
+    padding: 25px;
+  }
+  
+  .image-container3::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .image-container3 img {
+    transition: transform 0.5s ease-in-out;
+    margin-right: 10px;
+    width: 200px; 
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .image-container3 img:hover {
+    transform: scale(1.1); 
+  }
+  

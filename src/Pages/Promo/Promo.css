@@ -1,0 +1,72 @@
+
+.chrome-promo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .promo-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .autofill-image {
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  .promo-right {
+    flex: 1;
+    padding-left: 40px;
+  }
+  
+  .promo-right h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #202124;
+  }
+  
+  .promo-right p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #5f6368;
+  }
+  
+  .promo-right h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #1a73e8;
+  }
+  
+  .sign-in-button {
+    background-color: #e8f0fe;
+    color: #1a73e8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .sign-in-button:hover {
+    background-color: #d2e3fc;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .chrome-promo {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .promo-right {
+      padding-left: 0;
+      margin-top: 20px;
+    }
+  }
+  

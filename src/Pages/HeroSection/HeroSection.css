@@ -1,0 +1,154 @@
+.navbar {
+  
+  display: flex;
+  
+  align-items: center;
+  padding: 5px 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 70px;
+  margin-right: 10px;
+}
+
+.logo h4 {
+  font-size: 22px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  color: #5f6368;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  list-style: none;
+  padding: 10px;
+  display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f5f5f5;
+}
+
+.heroSection {
+  text-align: center;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 50px;
+}
+
+.heroSection-img {
+  height: 80px;
+  gap: 30px;
+}
+
+.heroSection h1 {
+  font-size: 70px;
+  font-weight: 400;
+  color: #202124;
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+.heroSection-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.cta-texts {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  padding: 10px;
+ 
+  margin: -40px auto;
+  border: 2px solid #ddd; 
+  border-radius: 8px; 
+  position: sticky;
+  top: 60px; 
+  z-index: 999; 
+  background-color: white; 
+}
+
+.cta-texts span {
+  margin: 0 10px; 
+  font-weight: bold; 
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .cta-texts {
+    flex-direction: column; 
+    max-width: 100%; 
+  }
+
+  .cta-texts span {
+    margin: 5px 0;
+  }
+}
+
+
+
+.heroSection p {
+  font-size: 14px;
+}
+
+heroSection a {
+  color: #1a73e8;
+  text-decoration: none;
+}

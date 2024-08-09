@@ -1,0 +1,86 @@
+
+.extend-experience {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #ffffff;
+    gap: 20px; 
+  }
+  
+  .content {
+    max-width: 450px;
+  }
+  
+  .content h1 {
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 30px;
+  }
+  
+  .explore-button {
+    background-color: #1a73e8;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .explore-button:hover {
+    background-color: #155bb5;
+  }
+  
+  .explore-button span {
+    margin-left: 10px;
+  }
+  
+  .image-container2 {
+    position: relative;
+  }
+  
+  .chrome-image1 {
+    width: 550px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    position: absolute;
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar-icon {
+    top: 20px;
+    left: -40px;
+  }
+  
+  .clipboard-icon {
+    top: 50%;
+    left: -70px; 
+    transform: translateY(-50%);
+  }
+  
+  .person-icon {
+    bottom: 30px;
+    left: 90px; 
+  }
+  
+  .shopping-icon {
+    bottom: 30px;
+    right: -40px;
+  }
+  

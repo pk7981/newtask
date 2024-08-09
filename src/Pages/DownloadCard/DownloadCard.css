@@ -1,0 +1,57 @@
+
+   .chrome-download-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chrome-download-card {
+    width: 600px;
+    padding: 20px;
+    background-color: #4285f4;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .chrome-download-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .chrome-download-card p {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+  }
+  
+  .chrome-download-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .chrome-download-button button {
+    background-color: white;
+    color: #4285f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .chrome-qr-code {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  
+  .chrome-scan-text {
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+  
